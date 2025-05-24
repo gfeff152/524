@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; /* 新增寬度設置為全螢幕 */
+    background-color: #240f9c; /* 天空藍背景 */
+}
+
+canvas {
+    border: 1px solid black;
+    width: 100%; /* 設置畫布寬度為全螢幕 */
+    height: 100%; /* 設置畫布高度為全螢幕 */
+}
+
+/* 主角與敵人樣式 */
+#gameCanvas {
+    position: relative;
+}
